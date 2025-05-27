@@ -1,0 +1,79 @@
+header h1{
+  padding:20px;
+}
+section.container
+{
+  border: 2px solid lightgray;
+  padding:20px;
+  margin:20px;
+
+}
+.color-blocks div {
+display: inline-block;
+width:30%;
+margin-right:5px;
+margin-bottom:5px;
+}
+.font-blocks div {
+display: inline-block;
+width:40%;
+margin-right:5px;
+margin-bottom:5px;
+
+}
+.blue{
+  background-color:#2d5dcc;
+  color:white;
+  padding:5px;
+}
+.pink{
+  background-color:#d957d9;
+  color:white;
+  padding:5px;
+}
+.green{
+  background-color:#4fe0b0;
+  color:white;
+  padding:5px;
+}
+.beige{
+  background-color:#efd9ca;
+  color:white;
+  padding:5px;
+}
+.font-blocks h3{
+  text-decoration: underline;
+}
+.font-blocks p:nth-of-type(2){
+ font-weight:600;
+}
+.font-blocks p:nth-of-type(3){
+ font-style: italic;
+}
+.ns{
+font-family:'Nunito Sans';
+}
+.scp h3,.pp h3, .ns h3{
+  font-weight: 400;
+}
+.pp{
+  font-family:'Poppins';
+}
+.scp{
+   font-family: "Source Code Pro";
+}
+.h1 h1{
+font-weight: 700;
+font-size: 26px;
+font-family: 'Nunito Sans';
+}
+.h2 h2{
+font-weight: 500;
+font-size: 18px;
+font-family: Poppins;
+}
+.p p{
+font-weight: 400;
+font-size: 14px;
+font-family: Poppins;
+}
